@@ -1,0 +1,177 @@
+/*definindo a fonte do texto de todo o site, margens e bordas*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/**/
+header{
+    background-color: #2c2b2a;
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Estilização do link quando o mouse estiver em cima*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+}
+.banner{
+    width: 100%;
+}
+/*Sobre a pizzaria seu pizza*/
+.pizza{
+width: 100px;
+float: left;
+margin: 0 20px;
+}
+
+.titulo-pizza{
+    text-align: center;
+    clear: left;
+    font-size: 2em;
+    padding-right: 170px;
+}
+
+.sobre-pizzaria{
+    background-color: #fffffe;
+    width: 100%;
+    padding-left: 80px;
+}
+
+.titulo-padrao{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/*Estilização da sessão Nosso estabelecimento*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(#fffffe, #FFBB00);
+}
+/*Estilização da sessão Beneficios*/
+.beneficios{
+    background-color: #FFBB00;    
+}
+.lista-beneficios{
+    list-style: "😋";
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 35%;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+
+}
+.lista-beneficios li:before{
+    content: "🍕";
+}
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.img_beneficios{
+    width: 170px;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+img.beneficios:hover{
+    opacity: 0.7;
+}
+.conteudo-beneficios{
+    width: 100%;
+}
+.video{
+    text-align: center;
+}
+/*Estilização do Footer*/
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background: url("fundo-preto.jpg");
+    padding: 40px 0 30px 0;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 20%;
+}
+
+.cardapiotitulo{
+    font-size: 28px;
+    color: red;
+    list-style: "🍕";
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.p{
+text-align: center;
+margin-top: 2%;
+}
+
+.pizzas{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgb(236, 196, 18);
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 1s;
+} 
+
+.pizzas:hover{
+    border: 5px solid rgb(233, 216, 143);
+    width: 480px;
+    height: 300px;
+    transition: 1s;
+}
+
+img{
+    width: 100px;
+}
+
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.rodape{
+    margin-top: 10%;
+}
